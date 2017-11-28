@@ -6,6 +6,6 @@ class BaseCommand
   end
 
   def error(error)
-    {base: [error]}
+    { base: [error] }
   end
 end

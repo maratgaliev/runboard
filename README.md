@@ -4,7 +4,6 @@
 
 ```
 $ ./bin/setup
-
 ```
 
 ## Stack

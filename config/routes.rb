@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users, skip: [:registrations, :sessions]
 
-  get '/users', to: 'users#index'
+  resources :users, only: [:index, :show]
 
   as :user do
     post '/users/sign_up', to: 'auth/registrations#create'

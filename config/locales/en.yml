@@ -2,5 +2,6 @@ en:
   errors:
     base: Please try again later
     users:
+      not_found: Sorry, user not found
       sign_in:
         base: Sorry, invalid email or password
