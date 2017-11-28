@@ -1,0 +1,6 @@
+en:
+  errors:
+    base: Please try again later
+    users:
+      sign_in:
+        base: Sorry, invalid email or password

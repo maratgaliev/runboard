@@ -1,0 +1,6 @@
+en:
+  errors:
+    password?: Password must be at least 6 characters
+    email?: Invalid email format
+    login?: Sorry, login already has been taken
+    phone?: Sorry, phone already has been taken
