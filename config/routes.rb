@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  post "/graphql", to: "graphql#execute"
   devise_for :users, skip: [:registrations, :sessions]
 
   resources :users, only: [:index, :show]
@@ -9,4 +10,7 @@ Rails.application.routes.draw do
     delete '/users/sign_out', to: 'auth/sessions#destroy'
   end
 
+  post '/graphql', to: 'graphql#query'
+  
 end
+
