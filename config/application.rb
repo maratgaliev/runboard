@@ -21,5 +21,7 @@ module Runboard
     config.action_dispatch.rescue_responses['JWT::VerificationError'] = :unauthorized
     
     config.action_dispatch.rescue_responses['JWT::DecodeError'] = :unauthorized
+
+    config.autoload_paths << Rails.root.join('app/graphql/input_objects')
   end
 end

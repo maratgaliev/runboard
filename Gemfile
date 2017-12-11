@@ -33,5 +33,5 @@ group :test do
 end
 
 gem 'graphql'
-gem 'graphiql-rails'
-
+gem 'graphql-batch'
+gem 'graphql-preload'
